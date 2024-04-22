@@ -1,0 +1,41 @@
+{
+  "name": "puppetx",
+  "version": "0.0.1",
+  "description": "X.com automation using Puppeteer",
+  "main": "dist/puppetx.js",
+  "types": "dist/puppetx.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "bin": {
+    "puppetx": "dist/cli.js"
+  },
+  "scripts": {
+    "cli": "tsc && node dist/cli.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Twitter",
+    "X",
+    "automation",
+    "headless",
+    "API"
+  ],
+  "author": {
+    "email": "behumble@gmail.com",
+    "name": "Alan Goo"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "figlet": "^1.7.0",
+    "puppeteer": "^22.6.3",
+    "sleep-promise": "^9.1.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "@types/node": "^20.12.6",
+    "typescript": "^5.4.4"
+  }
+}

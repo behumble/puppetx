@@ -63,17 +63,17 @@ app.command('post')
         const bot = new PuppetX(user, headless);
         try {
             await bot.postTweet(tweet);
-            await bot.close();
             console.log('🎉 Done.');
         } catch (e) {
             if(e instanceof Error) {
                 if(ERR_NOT_LOGGED_IN===e.message) {
-                    console.log(`Not logged in as "${user}"`);
-                    console.log(`perform 'login' first`);
+                    console.log(`😅 Not logged in as "${user}"`);
+                    console.log(`🔥 perform command 'login' first`);
                     process.exitCode = 1;
                 }
             }
         }
+        await bot.close();
     });
 
 app.parse();

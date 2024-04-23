@@ -1,6 +1,6 @@
 {
   "name": "puppetx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "X.com automation using Puppeteer",
   "main": "dist/puppetx.js",
   "types": "dist/puppetx.d.ts",

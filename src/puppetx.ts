@@ -81,11 +81,7 @@ export class PuppetX {
     }
 
     async postTweet(text: string) {
-        try {
-            await this.ensureLoggedIn();
-        } catch (ex) {
-            console.log('exception!!! stack ',ex.stack);
-        }
+        await this.ensureLoggedIn();
         await this.page.goto('https://twitter.com/compose/post');
         // find the text field
         await this.page.type('div[contenteditable="true"]', text);

@@ -67,8 +67,7 @@ app.command('post')
         } catch (e) {
             if(e instanceof Error) {
                 if(ERR_NOT_LOGGED_IN===e.message) {
-                    console.log(`😅 Not logged in as "${user}"`);
-                    console.log(`🔥 perform command 'login' first`);
+                    console.log(`😅 Not logged in as "${user}". perform command 'login' first`);
                     process.exitCode = 1;
                 }
             }

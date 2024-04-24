@@ -6,6 +6,10 @@ X(formerly Twitter) automation library & CLI.
 using [Google Puppeteer](https://pptr.dev/) with specifying [userDataDir](https://pptr.dev/api/puppeteer.browserlaunchargumentoptions) to prevent frequent login on X.
 > [구글의 Puppeteer](https://pptr.dev/)를 사용합니다. 빈번한 X 로그인을 피하기 위해 [userDataDir](https://pptr.dev/api/puppeteer.browserlaunchargumentoptions)를 지정합니다.
 
+## Demo
+
+[![PuppetX Demo](https://img.youtube.com/vi/SVVbtyasVL4/0.jpg)](https://www.youtube.com/watch?v=SVVbtyasVL4)
+
 ## as a CLI (CLI 사용법)
 
 ### `login`
